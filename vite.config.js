@@ -5,7 +5,6 @@ import {fileURLToPath, URL} from 'node:url'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  publicPath: '/Green-Company/',
   css:{
     sourceMap: true
   },
