@@ -11,7 +11,6 @@ $Inter: ('Medium', 500),
 }
 
 $InterItalic:('MediumItalic', 500),
-        ('RegularItalic', 400),
         ('SemiBoldItalic', 600);
 
 @each $name, $weight in $InterItalic {

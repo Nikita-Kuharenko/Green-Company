@@ -9,6 +9,9 @@ export default defineConfig({
   css:{
     sourceMap: true
   },
+  build: {
+    outDir: 'dist', 
+  },
   resolve: {
     alias:{
       '@': fileURLToPath(new URL('./src', import.meta.url))
