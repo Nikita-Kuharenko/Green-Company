@@ -1,0 +1,37 @@
+$Inter: ('Medium', 500),
+        ('Regular', 400),
+        ('SemiBold', 600);
+
+@each $name, $weight in $Inter {
+    @font-face{
+        font-family: 'Inter';
+        src: url('@/assets/fonts/Inter/Inter_18pt-#{$name}.ttf');
+        font-weight: $weight;
+    }
+}
+
+$InterItalic:('MediumItalic', 500),
+        ('RegularItalic', 400),
+        ('SemiBoldItalic', 600);
+
+@each $name, $weight in $InterItalic {
+    @font-face{
+        font-family: 'InterItalic';
+        src: url('@/assets/fonts/Inter/Inter_18pt-#{$name}.ttf');
+        font-weight: $weight;
+    }
+}
+
+
+$Montserrat: ('Bold', 700),
+        ('Medium', 500),
+        ('Regular', 400),
+        ('SemiBold', 600);
+
+@each $name, $weight in $Montserrat {
+    @font-face{
+        font-family: 'Montserrat';
+        src: url('@/assets/fonts/Montserrat/Montserrat-#{$name}.ttf');
+        font-weight: $weight;
+    }
+}

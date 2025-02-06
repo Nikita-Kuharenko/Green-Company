@@ -1,0 +1,114 @@
+.MainNews{
+    border-radius: 44px;
+    height: 720px;
+    background:url('@/assets/images/news-bg.png') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 120px;
+}
+
+.MainNews__content{
+    height: 100%;
+    width: 100%;
+    background: rgba(4, 68, 45, 0.89);
+    border-radius: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MainNews__content-left{
+    text-align: left;
+    width: 50%;
+    padding-top: 10%;
+    padding-left: 4%;
+    padding-bottom: 4%;
+}
+
+.MainNews__content-right{
+    width: 50%;
+    display: flex;
+    padding-top: 10%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.MainNews__content-title{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 49px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.MainNews__content-text{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.MainNews__content-link{
+    color: rgb(4, 69, 33);
+    font-family: Inter;
+    font-size: 29px;
+    font-weight: 600;
+    border-radius: 131px;
+    background: rgba(238, 238, 238, 0.93);
+    padding: 36px 231px;
+    align-self: flex-end;
+}
+
+
+
+
+
+.NewsLine{
+    display: flex;
+    justify-content: space-between;
+}
+
+.NewsLine__block{
+    width: 30%;
+}
+
+.NewsLine__block-img{
+    width: 100%;
+    margin-bottom: 39px;
+    border-radius: 41px;
+}
+
+.NewsLine__block-text{
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 53px;
+}
+
+.NewsLine__block-date{
+    color: rgb(102, 102, 102);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.MainNews__link{
+    margin-top: 70px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.MainNews__btn{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 29px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 131px;
+    background: rgb(1, 95, 61);
+    padding: 35px 180px;
+}
